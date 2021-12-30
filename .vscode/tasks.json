@@ -1,0 +1,42 @@
+// for the documentation about the tasks.json format
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "MyHelloTask",
+			"type": "shell",
+			"command": "echo",
+			"args": [
+				"--project",
+				"./app"
+			],
+			"presentation": {
+				"echo": true,
+				"reveal": "always",
+				"panel": "shared"
+			},
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"type": "npm",
+			"script": "start",
+			"problemMatcher": [],
+			"label": "npm: start",
+			"detail": "http-server"
+		},
+		{
+			"type": "typescript",
+			"tsconfig": "multimath/tsconfig.base.json",
+			"option": "watch",
+			"problemMatcher": [
+				"$tsc-watch"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"label": "tsc: watch - multimath/tsconfig.base.json"
+		}
+	]
+}

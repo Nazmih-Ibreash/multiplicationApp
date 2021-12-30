@@ -1,0 +1,20 @@
+{
+    "files.autoSave": "afterDelay",
+    "vsicons.presets.angular": false,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/.gitignore": true
+    },
+    "editor.fontFamily": "Consolas",
+    "editor.quickSuggestions": true,
+    "editor.parameterHints": true,
+    "editor.wordBasedSuggestions": true,
+    "editor.selectionHighlight": false,
+    "editor.suggestOnTriggerCharacters": false,
+    "window.zoomLevel": 2,
+    "editor.cursorBlinking": "solid",
+    "editor.formatOnPaste": true
+}
